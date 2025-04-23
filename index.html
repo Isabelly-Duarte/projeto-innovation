@@ -1,12 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style/output.css"/>
+    <link rel="stylesheet" href="./style/output.css" />
     <title>Avanti</title>
 </head>
+
 <body>
-  
+    <header>
+        <div class="w-full h-[40px] bg-blue-600
+        flex justify-center items-center text-center text-white text-[14px] lg:h-[30px] ">
+
+            <h1>Ganhe<span class="bg-purple-700 "> R$10,00 </span> de desconto no seu primeiro pedido. Utilize o cupom
+                DESCONTO10</h1>
+        </div>
+        <div class="hidden px-20 flex-row justify-between items-center mt-[20px] lg:flex ">
+            <img src="images/Grupo 21089.png" alt="logo Avanti" class="w-[152px] h-[27px]">
+
+            <div class="relative flex items-center">
+                <input type="text" class=" border border-gray-300 rounded-[10px] w-[400px] h-[40px]
+            focus:ring-1 focus:ring-blue-500 px-5" placeholder="Digite aqui o que você procura">
+
+                <span class="absolute inset-y-2 right-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="size-6">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+                    </svg>
+                </span>
+            </div>
+
+            <div class="relative flex items-center gap-2 ">
+                <span class=" inset-y-0 left-0 scale-150 ">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="size-4">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" />
+                    </svg>
+                </span>
+                <p class="font-bold text-slate-800">Olá,Nome cliente!</p>
+                <span class="scale-125">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="size-5">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                    </svg>
+
+                </span>
+            </div>
+
+        </div>
+        <!--mobile menu-->
+        <div class="flex mt-3 px-3 justify-between lg:hidden ">
+            <span>
+                <svg class="w-8 h-8" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                    stroke-width="1.5" stroke="currentColor" class="size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                </svg>
+            </span>
+            <img src="images/Grupo 21089.png" alt="logo Avanti" class="w-[152px] h-[27px]">
+            <span>
+                <svg class="w-8 h-8" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                    stroke-width="1.5" stroke="currentColor" class="size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                </svg>
+            </span>
+        </div>
+        <div class=" relative flex justify-center mt-5 lg:hidden">
+            <input latype="text" class=" border border-gray-300 rounded-[10px] w-[400px] h-[40px]
+            focus:ring-1 focus:ring-blue-500 px-5" placeholder="Digite aqui o que você procura">
+            <span class=" absolute inset-y-2 right-2">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+                </svg>
+            </span>
+        </div>
+
+        <div class=" hidden items-center justify-between mt-7 text-[12px] px-20 lg:flex ">
+            <div class="flex gap-2 font-bold text-slate-800 items-center">
+                <span>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="size-6">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                    </svg>
+                </span>
+                <p> Todas as Categorias</p>
+            </div>
+            <a> Departamento</a>
+            <a>Departamento</a>
+            <a>Departamento</a>
+            <a>Departamento</a>
+            <a>Departamento</a>
+            <a>Departamento</a>
+            <a>Departamento</a>
+            <a>Departamento</a>
+
+        </div>
+    </header>
+    <div class=" relative bg-[#E7E7EA] ">
+        <img class=" mt-5 relative right-[146px]" src="images/Rectangle 10.png" alt="super sale">
+        <div class=" text-center absolute top-10 right-0  flex flex-col  text-black text-2xl">
+            <span class="text-black text-3xl font-bold uppercase">Super</span>
+            <span class="text-black text-2xl uppercase">Sale</span>
+            <span class="text-blue-600 text-xs mt-2">SELECTEE ITEMS UP TO</span>
+            <span class="text-blue-600 text-3xl font-bold">50%OFF</span>
+        </div>
+    </div>
 </body>
+
 </html>
