@@ -93,7 +93,7 @@
                 </span>
                 <p> Todas as Categorias</p>
             </div>
-            <a> Departamento</a>
+            <a>Departamento</a>
             <a>Departamento</a>
             <a>Departamento</a>
             <a>Departamento</a>
@@ -104,7 +104,7 @@
 
         </div>
     </header>
-    <div class=" relative bg-[#E7E7EA] ">
+    <div class=" relative bg-[#E7E7EA] block lg:hidden ">
         <img class=" mt-5 relative right-[146px]" src="images/Rectangle 10.png" alt="super sale">
         <div class=" text-center absolute top-10 right-0  flex flex-col  text-black text-2xl">
             <span class="text-black text-3xl font-bold uppercase">Super</span>
@@ -113,6 +113,203 @@
             <span class="text-blue-600 text-3xl font-bold">50%OFF</span>
         </div>
     </div>
+    <div class=" w-full mt-3  bg-[#E7E7EA] hidden lg:flex items-center px-[200px]">
+        <div>
+            <img src="images/Rectangle 10.png" alt="imagen">
+        </div>
+        <div class=" flex flex-col gap-3 justify-center w-full ">
+            <div class="text-center">
+                <span class="text-black text-5xl font-semibold uppercase">Super</span>
+                <span class="text-black text-5xl font-light uppercase">Sale</span>
+            </div>
+            <div class="text-center">
+                <p class="text-blue-600 text-2x1 mt-2 uppercase">Itens selecionados com até</p>
+                <p class="text-blue-600 text-3xl font-bold">50%OFF</p>
+            </div>
+        </div>
+    </div>
+    <div class=" mt-12 flex justify-between px-3 lg:px-20">
+        <p class="font-bold text-[16px]">Lançamentos</p>
+        <a href="#" class="text-[14px] font-semibold text-black hover:text-blue-600 underline">Ver mais</a>
+    </div>
+    <div class="relative w-full max-w-5xl px-2 mt-5 overflow-hidden">
+        <!-- Botão Esquerdo -->
+        <button onclick="moveCarousel(-1)"
+            class=" hidden absolute left-0 top-1/2 transform -translate-y-1/2 bg-black bg-opacity-50 text-white p-2 rounded-full z-10 lg:flex">
+            &#8592;
+        </button>
+
+        <!-- Carrossel -->
+        <div id="carousel" class="flex transition-transform duration-500 ease-in-out">
+            <!-- Card 1 -->
+            <div class="min-w-[200px] bg-white rounded-xl border-[#DDDDDD] border-[1px] shadow-md mx-2 p-4">
+                <img src="images/produto-avanti-Mockup.png" alt="Produto" class="rounded-md mb-4">
+                <h3 class="text-lg font-semibold mb-2">
+                    <h3> Lorem Ipsum dolor sit amet consectetuer adipiscing elit </h3>
+                </h3>
+                <p><del class="text-gray-500">R$ 100,00</del> <span class="text-black font-bold">R$ 79,90</span></p>
+                <p class="text-sm text-gray-500">Ou em até <strong>10x de R$ 7,90</strong></p>
+                <button class="mt-4 w-full bg-blue-600 text-white py-2 rounded-md">Comprar</button>
+            </div>
+            <!-- Card 2 -->
+            <div class="min-w-[200px] bg-white rounded-xl border-[#DDDDDD] border-[1px] shadow-md mx-2 p-4">
+                <img src="images/produto-avanti-Mockup.png" alt="Produto" class="rounded-md mb-4">
+                <h3 class="text-lg font-semibold mb-2">
+                    <h3> Lorem Ipsum dolor sit amet consectetuer adipiscing elit </h3>
+                </h3>
+                <p><del class="text-gray-500">R$ 100,00</del> <span class="text-black font-bold">R$ 79,90</span></p>
+                <p class="text-sm text-gray-500">Ou em até <strong>10x de R$ 7,90</strong></p>
+                <button class="mt-4 w-full bg-blue-600 text-white py-2 rounded-md">Comprar</button>
+            </div>
+            <!-- Card 3 -->
+            <div class="min-w-[200px] bg-white rounded-xl border-[#DDDDDD] border-[1px] shadow-md mx-2 p-4">
+                <img src="images/produto-avanti-Mockup.png" alt="Produto" class="rounded-md mb-4">
+                <h3 class="text-lg font-semibold mb-2">
+                    <h3> Lorem Ipsum dolor sit amet consectetuer adipiscing elit </h3>
+                </h3>
+                <p><del class="text-gray-500">R$ 100,00</del> <span class="text-black font-bold">R$ 79,90</span></p>
+                <p class="text-sm text-gray-500">Ou em até <strong>10x de R$ 7,90</strong></p>
+                <button class="mt-4 w-full bg-blue-600 text-white py-2 rounded-md">Comprar</button>
+
+            </div>
+            <div class="min-w-[200px] bg-white rounded-xl border-[#DDDDDD] border-[1px] shadow-md mx-2 p-4">
+                <img src="images/produto-avanti-Mockup.png" alt="Produto" class="rounded-md mb-4">
+                <h3 class="text-lg font-semibold mb-2">
+                    <h3> Lorem Ipsum dolor sit amet consectetuer adipiscing elit </h3>
+                </h3>
+                <p><del class="text-gray-500">R$ 100,00</del> <span class="text-black font-bold">R$ 79,90</span></p>
+                <p class="text-sm text-gray-500">Ou em até <strong>10x de R$ 7,90</strong></p>
+                <button class="mt-4 w-full bg-blue-600 text-white py-2 rounded-md">Comprar</button>
+
+            </div>
+            <div class="min-w-[200px] bg-white rounded-xl border-[#DDDDDD] border-[1px] shadow-md mx-2 p-4">
+                <img src="images/produto-avanti-Mockup.png" alt="Produto" class="rounded-md mb-4">
+                <h3 class="text-lg font-semibold mb-2">
+                    <h3> Lorem Ipsum dolor sit amet consectetuer adipiscing elit </h3>
+                </h3>
+                <p><del class="text-gray-500">R$ 100,00</del> <span class="text-black font-bold">R$ 79,90</span></p>
+                <p class="text-sm text-gray-500">Ou em até <strong>10x de R$ 7,90</strong></p>
+                <button class="mt-4 w-full bg-blue-600 text-white py-2 rounded-md">Comprar</button>
+
+            </div>
+            <div class="min-w-[200px] bg-white rounded-xl border-[#DDDDDD] border-[1px] shadow-md mx-2 p-4">
+                <img src="images/produto-avanti-Mockup.png" alt="Produto" class="rounded-md mb-4">
+                <h3 class="text-lg font-semibold mb-2">
+                    <h3> Lorem Ipsum dolor sit amet consectetuer adipiscing elit </h3>
+                </h3>
+                <p><del class="text-gray-500">R$ 100,00</del> <span class="text-black font-bold">R$ 79,90</span></p>
+                <p class="text-sm text-gray-500">Ou em até <strong>10x de R$ 7,90</strong></p>
+                <button class="mt-4 w-full bg-blue-600 text-white py-2 rounded-md">Comprar</button>
+
+            </div>
+            <div class="min-w-[200px] bg-white rounded-xl border-[#DDDDDD] border-[1px] shadow-md mx-2 p-4">
+                <img src="images/produto-avanti-Mockup.png" alt="Produto" class="rounded-md mb-4">
+                <h3 class="text-lg font-semibold mb-2">
+                    <h3> Lorem Ipsum dolor sit amet consectetuer adipiscing elit </h3>
+                </h3>
+                <p><del class="text-gray-500">R$ 100,00</del> <span class="text-black font-bold">R$ 79,90</span></p>
+                <p class="text-sm text-gray-500">Ou em até <strong>10x de R$ 7,90</strong></p>
+                <button class="mt-4 w-full bg-blue-600 text-white py-2 rounded-md">Comprar</button>
+
+            </div>
+            <div class="min-w-[200px] bg-white rounded-xl border-[#DDDDDD] border-[1px] shadow-md mx-2 p-4">
+                <img src="images/produto-avanti-Mockup.png" alt="Produto" class="rounded-md mb-4">
+                <h3 class="text-lg font-semibold mb-2">
+                    <h3> Lorem Ipsum dolor sit amet consectetuer adipiscing elit </h3>
+                </h3>
+                <p><del class="text-gray-500">R$ 100,00</del> <span class="text-black font-bold">R$ 79,90</span></p>
+                <p class="text-sm text-gray-500">Ou em até <strong>10x de R$ 7,90</strong></p>
+                <button class="mt-4 w-full bg-blue-600 text-white py-2 rounded-md">Comprar</button>
+
+            </div>
+            <div class="min-w-[200px] bg-white rounded-xl border-[#DDDDDD] border-[1px] shadow-md mx-2 p-4">
+                <img src="images/produto-avanti-Mockup.png" alt="Produto" class="rounded-md mb-4">
+                <h3 class="text-lg font-semibold mb-2">
+                    <h3> Lorem Ipsum dolor sit amet consectetuer adipiscing elit </h3>
+                </h3>
+                <p><del class="text-gray-500">R$ 100,00</del> <span class="text-black font-bold">R$ 79,90</span></p>
+                <p class="text-sm text-gray-500">Ou em até <strong>10x de R$ 7,90</strong></p>
+                <button class="mt-4 w-full bg-blue-600 text-white py-2 rounded-md">Comprar</button>
+
+            </div>
+            <div class="min-w-[200px] bg-white rounded-xl border-[#DDDDDD] border-[1px] shadow-md mx-2 p-4">
+                <img src="images/produto-avanti-Mockup.png" alt="Produto" class="rounded-md mb-4">
+                <h3 class="text-lg font-semibold mb-2">
+                    <h3> Lorem Ipsum dolor sit amet consectetuer adipiscing elit </h3>
+                </h3>
+                <p><del class="text-gray-500">R$ 100,00</del> <span class="text-black font-bold">R$ 79,90</span></p>
+                <p class="text-sm text-gray-500">Ou em até <strong>10x de R$ 7,90</strong></p>
+                <button class="mt-4 w-full bg-blue-600 text-white py-2 rounded-md">Comprar</button>
+
+            </div>
+            <div class="min-w-[200px] bg-white rounded-xl border-[#DDDDDD] border-[1px] shadow-md mx-2 p-4">
+                <img src="images/produto-avanti-Mockup.png" alt="Produto" class="rounded-md mb-4">
+                <h3 class="text-lg font-semibold mb-2">
+                    <h3> Lorem Ipsum dolor sit amet consectetuer adipiscing elit </h3>
+                </h3>
+                <p><del class="text-gray-500">R$ 100,00</del> <span class="text-black font-bold">R$ 79,90</span></p>
+                <p class="text-sm text-gray-500">Ou em até <strong>10x de R$ 7,90</strong></p>
+                <button class="mt-4 w-full bg-blue-600 text-white py-2 rounded-md">Comprar</button>
+
+            </div>
+            <div class="min-w-[200px] bg-white rounded-xl border-[#DDDDDD] border-[1px] shadow-md mx-2 p-4">
+                <img src="images/produto-avanti-Mockup.png" alt="Produto" class="rounded-md mb-4">
+                <h3 class="text-lg font-semibold mb-2">
+                    <h3> Lorem Ipsum dolor sit amet consectetuer adipiscing elit </h3>
+                </h3>
+                <p><del class="text-gray-500">R$ 100,00</del> <span class="text-black font-bold">R$ 79,90</span></p>
+                <p class="text-sm text-gray-500">Ou em até <strong>10x de R$ 7,90</strong></p>
+                <button class="mt-4 w-full bg-blue-600 text-white py-2 rounded-md">Comprar</button>
+
+            </div>
+            <div class="min-w-[200px] bg-white rounded-xl border-[#DDDDDD] border-[1px] shadow-md mx-2 p-4">
+                <img src="images/produto-avanti-Mockup.png" alt="Produto" class="rounded-md mb-4">
+                <h3 class="text-lg font-semibold mb-2">
+                    <h3> Lorem Ipsum dolor sit amet consectetuer adipiscing elit </h3>
+                </h3>
+                <p><del class="text-gray-500">R$ 100,00</del> <span class="text-black font-bold">R$ 79,90</span></p>
+                <p class="text-sm text-gray-500">Ou em até <strong>10x de R$ 7,90</strong></p>
+                <button class="mt-4 w-full bg-blue-600 text-white py-2 rounded-md">Comprar</button>
+
+            </div>
+            <div class="min-w-[200px] bg-white rounded-xl border-[#DDDDDD] border-[1px] shadow-md mx-2 p-4">
+                <img src="images/produto-avanti-Mockup.png" alt="Produto" class="rounded-md mb-4">
+                <h3 class="text-lg font-semibold mb-2">
+                    <h3> Lorem Ipsum dolor sit amet consectetuer adipiscing elit </h3>
+                </h3>
+                <p><del class="text-gray-500">R$ 100,00</del> <span class="text-black font-bold">R$ 79,90</span></p>
+                <p class="text-sm text-gray-500">Ou em até <strong>10x de R$ 7,90</strong></p>
+                <button class="mt-4 w-full bg-blue-600 text-white py-2 rounded-md">Comprar</button>
+
+            </div>
+            <div class="min-w-[200px] bg-white rounded-xl border-[#DDDDDD] border-[1px] shadow-md mx-2 p-4">
+                <img src="images/produto-avanti-Mockup.png" alt="Produto" class="rounded-md mb-4">
+                <h3 class="text-lg font-semibold mb-2">
+                    <h3> Lorem Ipsum dolor sit amet consectetuer adipiscing elit </h3>
+                </h3>
+                <p><del class="text-gray-500">R$ 100,00</del> <span class="text-black font-bold">R$ 79,90</span></p>
+                <p class="text-sm text-gray-500">Ou em até <strong>10x de R$ 7,90</strong></p>
+                <button class="mt-4 w-full bg-blue-600 text-white py-2 rounded-md">Comprar</button>
+
+            </div>
+        </div>
+
+        <!-- Botão Direito -->
+        <button onclick="moveCarousel(1)"
+            class="hidden absolute right-0 top-1/2 transform -translate-y-1/2 bg-black bg-opacity-50 text-white p-2 rounded-full z-10 lg:flex">
+            &#8594;
+        </button>
+    </div>
+    <div class="bg-[#C2C2C2] mt-8 flex justify-center">
+        <img src="images/Free_Mug_Mockup_2.png">
+    </div>
+    <div class="mt-8 flex flex-col px-4 gap-5">
+        <h1 class="text-black font-medium text-3xl uppercase">Lorem Ipsum</h1>
+        <p>Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+        <p>Cras dignissim est et pellentesque tincidunt. Praesent bibendum quis velit a aliquam. Ut vestibulum turpis eget mi iaculis ullamcorper. Curabitur nec metus sed tortor sollicitudin porta nec eu enim. Ut fermentum scelerisque tortor mollis volutpat. Mauris iaculis magna nisl, vel porttitor augue placerat et.</p>
+    </div>
 </body>
+
+<script src="script.js"></script>
 
 </html>
